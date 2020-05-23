@@ -1,9 +1,9 @@
 
-  # a
+  # README Generator
   
   ## Description
 
-  a
+  This app generates README files for developers based on a template literal in the generateMarkdown function.
 
   ## Table of Contents
 
@@ -16,23 +16,23 @@
   ## Installation
 
   To install, run this command in the terminal:
-  a
+  npm i
 
   ## Usage
 
-  a
+  Type node index.js in the terminal to run the app.
 
   ## Credits
 
-  a
+  ryand67
 
   ## Lisence
 
-  a
+  
 
   ## Tests 
 
-  a
+  
 
   ## GitHub Link
 

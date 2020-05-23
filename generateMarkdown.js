@@ -39,7 +39,7 @@ function generateMarkdown(data) {
 
   https://www.github.com/${data.gitUserName}
 
-  [](https://img.shields.io/github/followers/${data.gitUserName}?label=Follow&style=social)
+  ![](https://img.shields.io/github/followers/${data.gitUserName}?label=Follow&style=social)
   `;
   }
   
