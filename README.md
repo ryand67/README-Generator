@@ -1,9 +1,9 @@
 
-  # README Generator
+  # a
   
   ## Description
 
-  This app generates a README based on user input.
+  a
 
   ## Table of Contents
 
@@ -16,27 +16,27 @@
   ## Installation
 
   To install, run this command in the terminal:
-  npm i
+  a
 
   ## Usage
 
-  Type node index.js into the terminal to activate this app.
+  a
 
   ## Credits
 
-  ryand67
+  a
 
   ## Lisence
 
-  
+  a
 
   ## Tests 
 
-  
+  a
 
   ## GitHub Link
 
   https://www.github.com/ryand67
 
-  <img src="https://img.shields.io/github/followers/ryand67?label=Follow&style=social">
+  [](https://img.shields.io/github/followers/ryand67?label=Follow&style=social)
   
