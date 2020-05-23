@@ -3,7 +3,7 @@
   
   ## Description
 
-  This generates a README for developers to use automatically.
+  This app generates a README based on user input.
 
   ## Table of Contents
 
@@ -20,7 +20,7 @@
 
   ## Usage
 
-  Type node index.js in the terminal to run the generator.
+  Type node index.js into the terminal to activate this app.
 
   ## Credits
 
