@@ -1,4 +1,4 @@
-var genMD = require("./generateMarkdown");
+var genMD = require("./generateMarkdown.js");
 var fs = require("fs");
 var inquirer = require("inquirer");
 
@@ -11,11 +11,6 @@ inquirer.prompt([{
         type: "input",
         message: "Description:",
         name: "description"
-    },
-    {
-        type: "input",
-        message: "Title of Contents",
-        name: "tableOfContents"
     },
     {
         type: "input",
@@ -44,12 +39,12 @@ inquirer.prompt([{
     },
     {
         type: "input",
-        message: "GitHub Email:",
-        name: "gitEmail"
+        message: "GitHub Username:",
+        name: "gitUserName"
     }
     
 ]).then((answers) => {
-    console.log(answers);
+    writeToFile("./README.md", answers);
 })
 
 const questions = [
@@ -57,10 +52,15 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, genMD.generateMarkdown(data), err => {
+        if(err) console.log(err);
+    })
 }
 
 function init() {
-
+    fs.writeFile("./README.md", "", err => {
+        if(err) console.log(err);
+    });
 }
 
 init();
