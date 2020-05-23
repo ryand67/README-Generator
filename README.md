@@ -38,5 +38,5 @@
 
   https://www.github.com/ryand67
 
-  [](https://img.shields.io/github/followers/ryand67?label=Follow&style=social)
+  ![](https://img.shields.io/github/followers/ryand67?label=Follow&style=social)
   
