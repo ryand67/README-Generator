@@ -37,6 +37,7 @@ function generateMarkdown(data) {
   ## GitHub Link
 
   https://www.github.com/${data.gitUserName}
+  <img src="https://img.shields.io/github/followers/ryand67?label=Follow&style=social">
   `;
   }
   

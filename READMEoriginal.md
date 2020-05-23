@@ -115,3 +115,5 @@ You are required to submit the following:
 
 * The URL of the GitHub repository
 
+
+<img src="https://img.shields.io/github/followers/ryand67?label=Follow&style=social">
