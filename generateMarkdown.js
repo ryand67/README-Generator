@@ -33,6 +33,10 @@ function generateMarkdown(data) {
   ## Tests 
 
   ${data.tests}
+
+  ## GitHub Link
+
+  https://www.github.com/${data.gitUserName}
   `;
   }
   

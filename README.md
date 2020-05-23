@@ -3,17 +3,23 @@
   
   ## Description
 
-  This app generates README's for developers
+  This is a test description
 
   ## Table of Contents
 
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Lisence](#lisence)
+  * [Tests](#tests)
+
   ## Installation
 
-  You run node index.js from the terminal
+  Open the files
 
   ## Usage
 
-  Use it however
+  Run node index.js in terminal
 
   ## Credits
 
@@ -21,11 +27,11 @@
 
   ## Lisence
 
-  GLP
+  GPL
 
   ## Tests 
 
-  lkajsdf
+  Externsive
 
-
+  https://www.github.com/ryand67
   
