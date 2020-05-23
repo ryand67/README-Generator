@@ -29,8 +29,8 @@ inquirer.prompt([{
     },
     {
         type: "input",
-        message: "Contributers:",
-        name: "contributers"
+        message: "Credits:",
+        name: "credits"
     },
     {
         type: "input",
@@ -46,10 +46,6 @@ inquirer.prompt([{
 ]).then((answers) => {
     writeToFile("./README.md", answers);
 })
-
-const questions = [
-
-];
 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, genMD.generateMarkdown(data), err => {

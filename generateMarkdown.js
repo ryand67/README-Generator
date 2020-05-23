@@ -16,6 +16,7 @@ function generateMarkdown(data) {
 
   ## Installation
 
+  To install, run this command in the terminal:
   ${data.installation}
 
   ## Usage
@@ -37,7 +38,8 @@ function generateMarkdown(data) {
   ## GitHub Link
 
   https://www.github.com/${data.gitUserName}
-  <img src="https://img.shields.io/github/followers/ryand67?label=Follow&style=social">
+
+  <img src="https://img.shields.io/github/followers/${data.gitUserName}?label=Follow&style=social">
   `;
   }
   

@@ -3,7 +3,7 @@
   
   ## Description
 
-  This is a test description
+  This generates a README for developers to use automatically.
 
   ## Table of Contents
 
@@ -15,23 +15,28 @@
 
   ## Installation
 
-  Open the files
+  To install, run this command in the terminal:
+  npm i
 
   ## Usage
 
-  Run node index.js in terminal
+  Type node index.js in the terminal to run the generator.
 
   ## Credits
 
-  undefined
+  ryand67
 
   ## Lisence
 
-  GPL
+  
 
   ## Tests 
 
-  Externsive
+  
+
+  ## GitHub Link
 
   https://www.github.com/ryand67
+
+  <img src="https://img.shields.io/github/followers/ryand67?label=Follow&style=social">
   
